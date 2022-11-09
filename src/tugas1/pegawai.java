@@ -6,7 +6,7 @@ public class pegawai {
     private int number;
     
     public pegawai (String name, String address, int number){
-        System.out.println("Menyusun Pegawai");
+        System.out.println("Menyusun Pegawai"); //salah satu penyebab muncul 2 buah kalimat menyusun pegawai
         this.name = name;
         this.address = address;
         this.number = number;
@@ -16,8 +16,8 @@ public class pegawai {
         System.out.println("Memeriksa surat untuk "+ this.name + " " +this.address);
     }
 
-    public String to String(){
-        return name + " " + address +   
+    public String toString(){
+        return name + " " + address +   " "+number;
     }
 
     public String getName(){
